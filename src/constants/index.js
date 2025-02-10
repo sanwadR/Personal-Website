@@ -4,7 +4,8 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/Pokedex.png";
 import project6 from "../assets/projects/WanderLust.png";
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications.  I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+import movieRsys from "../assets/projects/MovieRSystem.png";
+export const HERO_CONTENT = `I am a passionate data science student with a strong foundation in statistical analysis, machine learning, and data visualization. Proficient in Python and SQL, I have worked with libraries like Pandas, NumPy, Scikit-Learn, and TensorFlow to extract insights and build predictive models. My goal is to leverage data-driven approaches to solve complex problems, optimize decision-making, and create impactful solutions that drive business growth and innovation.`;
 
 export const ABOUT_TEXT = `Currently, I am pursuing a B.Tech in Computer Engineering from Pimpri Chinchwad College of Engineering. I am a dedicated and passionate student with a strong interest in software development, artificial intelligence, web development, and data science. My academic journey has equipped me with a solid foundation in programming languages and algorithms. I thrive in collaborative environments and am constantly seeking opportunities to apply my skills in real-world projects. With a commitment to continuous learning and innovation, I aim to contribute to cutting-edge technological advancements and drive impactful solutions in the tech industry.`;
 
@@ -59,6 +60,19 @@ export const EDUCATION = [
   },
 ];
 export const PROJECTS = [
+  {
+    title: "Movie Recommendation System",
+    image: movieRsys,
+    description:
+      "Your MoviesRSystem web app is a Movie Recommendation System built using Streamlit, which suggests movies based on user preferences. It leverages content-based filtering to provide personalized recommendations. The backend is powered by Python, utilizing pandas for data handling and scikit-learn for similarity calculations. The app is deployed on Streamlit Cloud and hosted on GitHub for version control.",
+    technologies: [
+      "Python (pandas, scikit-learn)",
+      "Streamlit (for UI & deployment)",
+      "Machine Learning (content-based filtering)",
+      "GitHub (version control & hosting)",
+    ],
+    link: "https://moviesrsystem-2cajrqitm5n9b7sdpvwxzd.streamlit.app/",
+  },
   {
     title: "WanderLust",
     image: project6,
@@ -118,5 +132,5 @@ export const PROJECTS = [
 export const CONTACT = {
   address: "Pimpri Chinchwad",
   phoneNo: "+12 4555 666 00 ",
-  email: "sanwad8cloud@gmail.com",
+  email: "sanwadrashinkar8888@gmail.com",
 };
